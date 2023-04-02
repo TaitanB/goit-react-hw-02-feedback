@@ -17,6 +17,7 @@ export class App extends Component {
   };
 
   onAddFeedback = value => {
+    console.log(value);
     this.setState(prevState => ({
       [value]: prevState[value] + 1,
     }));
