@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { StatisticItem } from './Feedbacks.styled';
+import { StatisticItem } from './Statistics.styled';
 
 export const Statistics = ({ stats, total, positivePerc }) => {
   return (

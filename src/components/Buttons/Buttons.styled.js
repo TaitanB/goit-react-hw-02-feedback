@@ -1,14 +1,5 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-  width: 340px;
-  padding: 30px;
-  border-radius: 20px;
-  margin: 50px auto;
-  background-color: rgb(201 193 233);
-  justify-content: center;
-`;
-
 export const FeedbackBtn = styled.button`
   padding: 10px 20px;
   background-color: rgb(85 99 143);
@@ -29,19 +20,4 @@ export const FeedbackBtn = styled.button`
     scale: 0.9;
     background-color: rgb(85 40 153);
   }
-`;
-
-export const StatisticItem = styled.p`
-  font-size: 18px;
-  font-weight: 500;
-  margin-top: 10px;
-
-  ::first-letter {
-    text-transform: uppercase;
-  }
-`;
-
-export const Message = styled.p`
-  font-size: 22px;
-  font-weight: 600;
 `;
