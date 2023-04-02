@@ -1,9 +1,9 @@
 import { Component } from 'react';
-import { FeedbacksAdd } from './Feedbacks/Buttons';
-import { Statistics } from './Feedbacks/Statistics';
-import { Wrapper } from './Feedbacks/Feedbacks.styled';
-import { Notification } from './Feedbacks/Notification';
-import { Section } from './Feedbacks/Section';
+import { FeedbacksAdd } from '../components/Buttons/Buttons';
+import { Statistics } from '../components/Statistics/Statistics';
+import { Wrapper } from '../components/Wrapper.styled';
+import { Notification } from '../components/Notification/Notification';
+import { Section } from '../components/Section/Section';
 
 export class App extends Component {
   static defaultProps = {
